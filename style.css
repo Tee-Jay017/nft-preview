@@ -1,0 +1,178 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(217, 54%, 11%);
+}
+.container{
+  border: thin solid hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 10px #1c243b;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  background-color: hsl(216, 50%, 16%);
+  margin: auto;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.top{
+  border-radius: 10px;
+  width: 100%;
+}
+.top img{
+  border-radius: 10px;
+}
+.bottom{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.bottom h2{
+  color: white;
+}
+.bottom p{
+  color: hsl(215, 51%, 70%);
+}
+.last{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 4%;
+}
+.left, .right{
+  display: flex;
+}
+.right p{
+  color: hsl(178, 100%, 50%);
+}
+.clock{
+  display: flex;
+  gap: 50%;
+}
+hr{
+  width: 100%;
+}
+.last img{
+  border: thin solid white;
+  border-radius: 50%;
+}
+.last p{
+  color: white;
+}
+#create{
+  color: hsl(215, 51%, 70%);
+}
+
+@media(max-width: 1072px)and
+      (min-width: 768px){
+        .container{
+          border: thin solid hsl(216, 50%, 16%);
+          border-radius: 10px;
+          box-shadow: 0px 10px 30px 10px #1c243b;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          padding: 15px;
+          background-color: hsl(216, 50%, 16%);
+          margin: auto;
+          margin-top: 1rem;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+@media(max-width: 768px)and
+      (min-width: 624px){
+        .container{
+          border: thin solid hsl(216, 50%, 16%);
+          border-radius: 10px;
+          box-shadow: 0px 10px 30px 10px #1c243b;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          padding: 15px;
+          background-color: hsl(216, 50%, 16%);
+          margin: auto;
+          margin-top: 1rem;
+          justify-content: center;
+          align-items: center;
+        }
+        .clock{
+          display: flex;
+          gap: 40%;
+        }
+      }
+@media(max-width: 624px)and
+      (min-width: 446px){
+        .container{
+          border: thin solid hsl(216, 50%, 16%);
+          border-radius: 10px;
+          box-shadow: 0px 10px 30px 10px #1c243b;
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          padding: 15px;
+          background-color: hsl(216, 50%, 16%);
+          margin: auto;
+          margin-top: 1rem;
+          justify-content: center;
+          align-items: center;
+        }
+        .clock{
+          display: flex;
+          gap: 40%;
+        }
+      }
+@media(max-width: 446px)and
+      (min-width: 375px){
+        .container{
+          border: thin solid hsl(216, 50%, 16%);
+          border-radius: 10px;
+          box-shadow: 0px 10px 30px 10px #1c243b;
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          padding: 15px;
+          background-color: hsl(216, 50%, 16%);
+          margin: auto;
+          margin-top: 1rem;
+          justify-content: center;
+          align-items: center;
+        }
+        .clock{
+          display: flex;
+          gap: 25%;
+        }
+      }
+@media(max-width: 375px)and
+      (min-width: 320px){
+        .container{
+          border: thin solid hsl(216, 50%, 16%);
+          border-radius: 10px;
+          box-shadow: 0px 10px 30px 10px #1c243b;
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          padding: 15px;
+          background-color: hsl(216, 50%, 16%);
+          margin: auto;
+          margin-top: 1rem;
+          justify-content: center;
+          align-items: center;
+        }
+        .clock{
+          display: flex;
+          gap: 25%;
+        }
+      }
